@@ -1,6 +1,9 @@
 ---
+title: Testing C++ Compiler
+description: This is a test article testing the layout of the blog
 layout: post
 cover: "https://github.com/jerrykress/Simple-Linux-Kernel/raw/master/screenshot.png?raw=true"
+gitlink: "https://github.com/jerrykress/Simple-Linux-Kernel/"
 ---
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.

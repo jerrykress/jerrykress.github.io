@@ -3,3 +3,73 @@
 ---
 
 @import "minima";
+@import "cyber_glitch";
+@import "cyber_button";
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(214, 214, 214);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.post-list {
+  padding-top: 20px;
+}
+
+.post-meta-text {
+  margin-top: 8px;
+}
+
+.post-card-container {
+  display: flex;
+  //   width: 80%;
+  padding: 0px;
+  border: 1px solid #bebebe;
+  -webkit-box-shadow: 3px 6px 35px 1px rgba(0, 0, 0, 0.33);
+  box-shadow: 3px 6px 35px 1px rgba(0, 0, 0, 0.33);
+}
+
+.post-card-meta-container {
+  margin: 20px;
+}
+
+.post-cover-img {
+  width: 240px;
+}
+
+.avatar-img {
+  margin: 30px;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 1px solid #bebebe;
+  -webkit-box-shadow: 3px 6px 35px 1px rgba(0, 0, 0, 0.33);
+  box-shadow: 3px 6px 35px 1px rgba(0, 0, 0, 0.33);
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.large-link {
+  padding: 10px;
+}
+
+// =========================================================

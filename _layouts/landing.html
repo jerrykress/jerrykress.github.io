@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<div class="home">
+    {%- if page.title -%}
+        <h1 class="page-heading">{{ page.title }}</h1>
+    {%- endif -%}
+    
+    {{ content }}
+    <div>
+            <div class="environment"></div>
+            <!-- <img class="avatar-img center" src="https://avatars.githubusercontent.com/u/34189996?v=4"> -->
+            <div class="hero-container">
+                <h2 class="hero glitch layers" data-text="HELLO WORLD"><span>HELLO WORLD</span></h2>
+            </div>
+            <!-- Button Group -->
+            <span>
+                <div class="center-center" >
+                    <a class="btn-glitch-fill" href="{{ "/about/" | relative_url }}">
+                        <span class="text">// CONNECT</span><span class="text-decoration">_</span><span class="decoration">&rArr;</span>
+                    </a>
+                    <a class="btn-glitch-fill" href="{{ "/projects/" | relative_url }}">
+                        <span class="text">// PROJECTS</span><span class="text-decoration">_</span><span class="decoration">&rArr;</span>
+                    </a>
+                </div>
+            </span>
+            
+
+    </div>
+</div>
