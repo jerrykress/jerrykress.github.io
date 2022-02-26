@@ -1,0 +1,49 @@
+.header {
+  overflow: hidden;
+  background-color: rgba(0, 13, 37, 0.13);
+  padding: 2px 10px;
+}
+
+.header a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  border-top: 3px solid yellow;
+}
+
+.header a.active {
+  color: yellow;
+  border-top: 3px solid yellow;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .header-right {
+    float: none;
+  }
+
+  .polka {
+    height: 15%;
+  }
+}

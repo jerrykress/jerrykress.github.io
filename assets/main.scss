@@ -5,6 +5,7 @@
 @import "minima";
 @import "cyber_glitch";
 @import "cyber_button";
+@import "cyber_nav";
 
 a:link {
   color: white;
@@ -73,3 +74,32 @@ a:hover {
 }
 
 // =========================================================
+.neon-msg {
+  border: 2px solid lightcyan;
+  box-shadow: 0 0 20px cyan;
+  margin: 5em auto;
+  width: 80%;
+  padding: 2em;
+  background-color: rgba(0, 220, 255, 0.2);
+  border-radius: 0 100px 0 100px;
+}
+.neon-msg-title {
+  text-shadow: 0 0 10px cyan;
+  color: lightcyan;
+  text-align: center;
+  font-family: "Orbitron", sans-serif;
+}
+
+.neon-msg p {
+  text-shadow: 0 0 10px cyan;
+  color: lightcyan;
+  text-align: justify;
+  font-family: "Source Code Pro", monospace;
+  line-height: 40px;
+}
+
+hr {
+  background: lightcyan;
+  box-shadow: 0 0 20px cyan;
+  height: 4px;
+}
