@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
-  <link rel="stylesheet" type="text/scss" href="assets/main.css">
+  <link rel="stylesheet" href="{{ '/assets/main.css' | prepend: site.baseurl }}">
 
   {%- include head.html -%}
 
