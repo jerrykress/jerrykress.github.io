@@ -487,3 +487,17 @@
     center no-repeat;
   background-size: cover;
 }
+
+.environment-404 {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.1;
+  filter: blur(5px);
+  background: url(https://mycyberpunk.de/suitecore/index.php?media/82-cyberpunk-2077-blackwall-jpg/)
+    center no-repeat;
+  background-size: cover;
+}

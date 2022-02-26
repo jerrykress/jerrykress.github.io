@@ -12,6 +12,7 @@
 .site-title {
   @include relative-font-size(1.625);
   font-weight: 300;
+  font-style: italic;
   line-height: $base-line-height * $base-font-size * 2.25;
   letter-spacing: -1px;
   margin-bottom: 0;
@@ -32,6 +33,7 @@
 
   .page-link {
     font-size: 18px;
+    font-style: italic;
     color: $text-color;
     line-height: $base-line-height;
 
@@ -115,7 +117,8 @@
 }
 
 .footer-col-wrapper {
-  @include relative-font-size(0.9375);
+  @include relative-font-size(1);
+  font-style: italic;
   color: $grey-color;
   // margin-left: -$spacing-unit / 2;
   @extend %clearfix;
