@@ -7,11 +7,15 @@
   font-family: "VT323", monospace;
 }
 
-.center-center {
-  position: fixed;
-  left: 50%;
-  top: 55%;
-  transform: translate(-50%);
+.glitch-button-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+
+.glitch-button-group {
+  position: absolute;
 }
 
 [class*="btn-glitch-"] {
@@ -40,6 +44,7 @@
     animation-duration: 0.2s;
     background-color: yellow;
     color: black;
+    position: relative;
     border: 1px solid yellow;
     .text-decoration {
       animation-name: blink;

@@ -102,14 +102,14 @@
  */
 .site-footer {
   border-top: 1px solid $grey-color-light;
-  padding: $spacing-unit 0;
+  padding: $spacing-unit / 1.5 0;
   // position: sticky;
   // inset-block-end: 0; /* "bottom" */
 }
 
 .footer-heading {
   @include relative-font-size(1.125);
-  margin-bottom: $spacing-unit / 2;
+  margin-bottom: $spacing-unit / 4;
 }
 
 .contact-list,
@@ -128,7 +128,7 @@
 
 .footer-col {
   float: right;
-  margin-bottom: $spacing-unit / 2;
+  margin-bottom: $spacing-unit / 8;
   padding-left: $spacing-unit / 2;
 }
 
