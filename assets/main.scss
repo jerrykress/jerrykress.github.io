@@ -7,6 +7,7 @@
 @import "cyber_button";
 @import "cyber_nav";
 @import "neon_404";
+@import "cyber_box";
 
 .environment {
   position: fixed;
@@ -62,6 +63,7 @@ a:hover {
 
 .post-meta-text {
   margin-top: 8px;
+  padding-bottom: 8px;
 }
 
 .post-card-container {
@@ -78,7 +80,8 @@ a:hover {
 }
 
 .post-cover-img {
-  width: 240px;
+  z-index: -1;
+  width: 100%;
 }
 
 .avatar-img {
@@ -114,7 +117,7 @@ a:hover {
   width: 80%;
   padding: 2em;
   background-color: rgba(0, 220, 255, 0.2);
-  border-radius: 0 100px 0 100px;
+  border-radius: 0 50px 0 50px;
 }
 .neon-msg-title {
   text-shadow: 0 0 10px cyan;

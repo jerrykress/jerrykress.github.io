@@ -3,13 +3,13 @@ layout: default
 ---
 
 <div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
-
-  {{ content }}
 
   <div class="environment"></div>
+
+  <div class="page-heading">
+    <a class="neon">RECENT </a>
+    <a class="flux">PROJECTS</a>
+  </div>
 
   {%- if site.posts.size > 0 -%}
     <!-- <h2 class="post-list-heading">{{ page.list_title | default: "Default Page" }}</h2> -->
@@ -17,17 +17,18 @@ layout: default
       <!-- List of Posts -->
       {%- for post in site.posts -%}
       <li>
+        
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <div class="post-card-container">
+        <div class="">
             {%- if post.cover -%}
-            <img class="post-cover-img" src="{{post.cover}}">
+            <!-- <img class="post-cover-img" src="{{post.cover}}"> -->
             {%- endif -%}
-            <div class="post-card-meta-container">
-                <span class="post-meta">{{ post.date | date: date_format }}</span>
-                <a class="post-link post-meta-text" href="{{ post.url | relative_url }}">
+            <div class="">
+                <span class="post-meta-date">{{ post.date | date: date_format }}</span>
+                <a class="post-meta-text" href="{{ post.url | relative_url }}">
                   {{ post.title | escape }}
                 </a>
-                <a>{{post.description}}</a>
+                <p>{{post.description}}</p>
             </div>
             
             {%- if site.show_excerpts -%}

@@ -1,8 +1,8 @@
 ---
 title: Testing C++ Compiler
-description: This is a test article testing the layout of the blog
+description: This is a test article testing the layout of the blog. This is a test article testing the layout of the blog.
 layout: post
-cover: "https://github.com/jerrykress/Simple-Linux-Kernel/raw/master/screenshot.png?raw=true"
+cover: "https://wallpaperbat.com/img/638007-outrun-ultra-hd-desktop-background-wallpaper-for-widescreen-ultrawide-desktop-laptop-multi-display-dual-triple-monitor-tablet-smartphone.jpg"
 gitlink: "https://github.com/jerrykress/Simple-Linux-Kernel/"
 ---
 
