@@ -135,12 +135,12 @@ a:hover {
 // =========================================================
 .neon-msg {
   border: 2px solid lightcyan;
-  box-shadow: 0 0 20px cyan;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.651);
   margin: 5em auto;
   width: 80%;
   padding: 2em;
   background-color: rgba(0, 220, 255, 0.2);
-  border-radius: 0 50px 0 50px;
+  // border-radius: 0 50px 0 50px;
 }
 .neon-msg-title {
   text-shadow: 0 0 10px cyan;
