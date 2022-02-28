@@ -61,27 +61,46 @@ a:hover {
   padding-top: 20px;
 }
 
+.post-meta-title {
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.post-meta-date {
+  padding-top: 0;
+  color: #bebebe;
+  font-size: 15px;
+}
+
 .post-meta-text {
-  margin-top: 8px;
-  padding-bottom: 8px;
+  font-size: 15px;
+  padding-top: 10px;
+  color: #bebebe;
 }
 
 .post-card-container {
   display: flex;
   //   width: 80%;
-  padding: 0px;
-  border: 1px solid #bebebe;
-  -webkit-box-shadow: 3px 6px 35px 1px rgba(0, 0, 0, 0.33);
-  box-shadow: 3px 6px 35px 1px rgba(0, 0, 0, 0.33);
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .post-card-meta-container {
-  margin: 20px;
+  margin: 10px;
+  width: 70%;
 }
 
-.post-cover-img {
+.img-container {
+  width: 30%;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.img-container img {
   z-index: -1;
   width: 100%;
+  border-radius: 5px;
 }
 
 .avatar-img {

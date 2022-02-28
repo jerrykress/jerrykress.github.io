@@ -19,22 +19,24 @@ layout: default
       <li>
         
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <div class="">
+        <span class="post-card-container">
             {%- if post.cover -%}
-            <!-- <img class="post-cover-img" src="{{post.cover}}"> -->
+            <div class="img-container">
+                <img src="{{post.cover}}">
+            </div>
             {%- endif -%}
-            <div class="">
-                <span class="post-meta-date">{{ post.date | date: date_format }}</span>
-                <a class="post-meta-text" href="{{ post.url | relative_url }}">
-                  {{ post.title | escape }}
-                </a>
-                <p>{{post.description}}</p>
+            <div class="post-card-meta-container">
+              <a class="post-meta-title" href="{{ post.url | relative_url }}">
+                {{ post.title | escape }}
+              </a>
+               <div class="post-meta-date">{{ post.date | date: date_format }}</div>
+                <p class="post-meta-text">{{post.description}}</p>
             </div>
             
             {%- if site.show_excerpts -%}
               {{ post.excerpt }}
             {%- endif -%}
-        </div>
+        </span>
       </li>
       {%- endfor -%}
     </ul>
