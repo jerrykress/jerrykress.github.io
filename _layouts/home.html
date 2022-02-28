@@ -16,7 +16,7 @@ layout: default
       <!-- List of Posts -->
       {%- for post in site.posts -%}
       <li>
-        
+        {%- if post.categories contains "CPP" -%}
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <span class="post-card-container">
             {%- if post.cover -%}
@@ -36,13 +36,46 @@ layout: default
               {{ post.excerpt }}
             {%- endif -%}
         </span>
+        {%- endif -%}
       </li>
       {%- endfor -%}
     </ul>
   {%- endif -%}
 
   <div class="page-heading">
-    <a class="flux">OTHER PROJECTS</a>
+    <a class="flux">APP PROJECTS</a>
   </div>
+
+    {%- if site.posts.size > 0 -%}
+    <!-- <h2 class="post-list-heading">{{ page.list_title | default: "Default Page" }}</h2> -->
+    <ul class="post-list">
+      <!-- List of Posts -->
+      {%- for post in site.posts -%}
+      <li>
+        {%- if post.categories contains "APP" -%}
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <span class="post-card-container">
+          {%- if post.cover -%}
+          <div class="img-container">
+            <img src="{{post.cover}}">
+          </div>
+          {%- endif -%}
+          <div class="post-card-meta-container">
+            <a class="post-meta-title" href="{{ post.gitlink }}">
+              {{ post.title | escape }}
+            </a>
+            <div class="post-meta-date">{{ post.date | date: date_format }}</div>
+            <p class="post-meta-text">{{post.description}}</p>
+          </div>
+    
+          {%- if site.show_excerpts -%}
+          {{ post.excerpt }}
+          {%- endif -%}
+        </span>
+        {%- endif -%}
+      </li>
+      {%- endfor -%}
+    </ul>
+    {%- endif -%}
 
 </div>
