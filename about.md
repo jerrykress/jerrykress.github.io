@@ -1,5 +1,5 @@
 ---
 layout: about
-title: CONNECT
+title: CV
 permalink: /about/
 ---

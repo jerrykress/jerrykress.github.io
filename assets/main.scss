@@ -62,18 +62,22 @@ a:hover {
 }
 
 .post-meta-title {
+  font-family: "Tomorrow";
   font-weight: 500;
   font-size: 20px;
   margin-bottom: 20px;
 }
 
 .post-meta-date {
-  padding-top: 0;
+  font-family: "Tomorrow";
+  font-style: italic;
+  padding-top: 5px;
   color: #bebebe;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .post-meta-text {
+  font-family: "Tomorrow";
   font-size: 15px;
   padding-top: 10px;
   color: #bebebe;
@@ -142,15 +146,40 @@ a:hover {
   text-shadow: 0 0 10px cyan;
   color: lightcyan;
   text-align: center;
-  font-family: "Orbitron", sans-serif;
+  font-family: "Tomorrow", sans-serif;
 }
 
-.neon-msg p {
+.neon-msg-h2 {
   text-shadow: 0 0 10px cyan;
   color: lightcyan;
   text-align: justify;
-  font-family: "Source Code Pro", monospace;
-  line-height: 40px;
+  font-family: "Tomorrow";
+  line-height: 10px;
+  font-size: 12px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.neon-msg-text {
+  text-shadow: 0 0 10px cyan;
+  color: lightcyan;
+  text-align: justify;
+  font-family: "Tomorrow";
+  line-height: 28px;
+  font-size: 18px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.neon-msg-detail {
+  text-shadow: 0 0 10px rgba(0, 255, 255, 0.363);
+  color: rgba(224, 255, 255, 0.61);
+  text-align: justify;
+  font-family: "Tomorrow";
+  line-height: 28px;
+  font-size: 18px;
+  padding-right: 5px;
+  padding-left: 5px;
 }
 
 hr {
