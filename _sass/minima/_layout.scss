@@ -7,6 +7,7 @@
   // Positioning context for the mobile navigation icon
   position: sticky;
   inset-block-start: 0; /* "top" */
+  z-index: 10;
 }
 
 .site-title {
@@ -16,12 +17,14 @@
   line-height: $base-line-height * $base-font-size * 2.25;
   letter-spacing: -1px;
   margin-bottom: 0;
+  margin-right: 50px;
   float: left;
 }
 
 .site-nav {
   float: right;
   line-height: $base-line-height * $base-font-size * 2.25;
+  z-index: 10;
 
   .nav-trigger {
     display: none;
@@ -33,6 +36,7 @@
   }
 
   .page-link {
+    text-align: right;
     font-size: 18px;
     font-style: italic;
     color: $text-color;
@@ -92,7 +96,7 @@
       &:not(:last-child) {
         margin-right: 0;
       }
-      margin-left: 20px;
+      margin-left: 0px;
     }
   }
 }
