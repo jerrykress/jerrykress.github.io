@@ -1,5 +1,5 @@
 ---
-title: Terminal Stonks Price Monitor
+title: Terminal Stock Monitor
 categories: CPP
 description: Stonks is a terminal based stock price monitor. It pulls real time data using AlphaVantage APIs and display history prices and trading volume.
 layout: post
